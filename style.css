@@ -9,14 +9,15 @@ body {
 }
 
 .img {
-    width: 400px;
-    font-size: 25px;
-    margin-left: 700px;
+    width: 250px;
+    font-size: 15px;
+    font-family: monospace;
+    margin-left: 450px;
 }
 
 #imgSpecial{
-    width: 800px;
-    margin-left: 700px;
+    width: 500px;
+    margin-left: 450px;
 }
 
 header {
@@ -24,10 +25,14 @@ header {
     font-size: 25px;
 }
 
+.imageWidth {
+    width: 500px;
+}
+
 h2 {
-    margin-left: 700px;
+    margin-left: 450px;
     margin-top: 400px;
-    width: 10px;
+    width: 20px;
 }
 
 h3 {
@@ -35,13 +40,16 @@ h3 {
     justify-content: center;
 }
 figure {
-    margin-left: 700px;
-    margin-bottom: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 450px;
+    margin-bottom: 800px;
 }
 
 figcaption {
-    margin-left: 700px;
+    margin-left: 450px;
     font-size: 22px;
+    width: max-content;
 }
 
 li {
@@ -52,6 +60,7 @@ p {
     width: 500px;
     font-size: 30px;
     margin-right: 300px;
+    background-color: red;
 }
 
 #section-1 {
@@ -65,9 +74,19 @@ li {
     margin-bottom: 20px;
 }
 
- {
-    text-align: center;
+h3 {
+    align-items: center;
 }
+
+footer {
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 992px)
+    
+}
+
 
 
 
