@@ -1,5 +1,6 @@
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
 }
 
 body {
@@ -20,11 +21,11 @@ nav {
 }
 
 p {
-    width: 290px;
+    width: 370px;
 }
 
 section {
-    display: inline;
+  
     
 }
 
@@ -39,6 +40,8 @@ ul {
     flex-wrap: wrap;
     list-style: none;
     font-size: 30px;
+    justify-content: flex-end;
+    margin-right: 50px;
 }
 
 li {
@@ -47,21 +50,22 @@ li {
 }
 
 .imageWidth {
-    width: 300px;
-    display: inline;
+ width: 100%;
 }
 
 #aboutMe {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     font-size: 27px;
-
+    width: 600px;
 }
 
 #myWork {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     width: 600px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 main {
@@ -72,9 +76,17 @@ main {
     flex: 1 0 50%;
 }
 
+.divWidth {
+   width: 50%;
+   padding: 10px;
+}
+
+.myCaption {
+    width: 600px;
+}
 
 
-
-
-
+.imageWidth2 {
+    width: 300px;
+}
 
