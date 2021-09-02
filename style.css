@@ -15,20 +15,39 @@ nav {
     
 }
 
+
 section {
     text-align: center;
 }
+
+#myWork {
+    text-align: center;
+}
+
+#contactMe {
+    text-align: center;
+}
+
 h3 {
     text-align: center;
     margin-bottom: 25px;
 }
+
 #aboutMe {
     width: 400px;
 }
 
- 
+h5 {
+    text-align: center;
+}
+
+.projectP {
+    text-align: center;
+}
+
 #footer {
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .row {
@@ -36,9 +55,7 @@ h3 {
     justify-content: space-evenly;
 }
 
-#contactMe {
-    
-}
+
 
 /* * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
