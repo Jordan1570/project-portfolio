@@ -1,4 +1,46 @@
 * {
+font-size: 26px;
+font-family: monospace;
+
+}
+
+body {
+    background-color: black;
+    color: black;
+}
+nav {
+    width: 100%;
+    margin-bottom: 50px;
+    color: white;
+    
+}
+
+section {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+#aboutMe {
+    width: 400px;
+}
+
+ 
+#footer {
+    margin-bottom: 10px;
+}
+
+.row {
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+#contactMe {
+    
+}
+
+/* * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
 }
@@ -89,4 +131,4 @@ main {
 .imageWidth2 {
     width: 300px;
 }
-
+ */
