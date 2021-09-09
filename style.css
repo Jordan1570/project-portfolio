@@ -12,7 +12,6 @@ nav {
     width: 100%;
     margin-bottom: 50px;
     color: white;
-    
 }
 
 
@@ -21,6 +20,10 @@ section {
 }
 
 #myWork {
+    text-align: center;
+}
+
+#myWorkTwo {
     text-align: center;
 }
 
@@ -55,6 +58,7 @@ h5 {
     justify-content: space-evenly;
 }
 
-
-
+a {
+    text-align: center;
+}
 
